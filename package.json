@@ -1,0 +1,18 @@
+{
+  "name": "crypto_telegramm_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node build/index.js"
+  },
+  "keywords": ["bot", "crypto", "telegram", "ton", "bitcoin", "live", "exchange", "api"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "grammy": "^1.21.1",
+    "typescript": "^5.4.5"
+  }
+}
